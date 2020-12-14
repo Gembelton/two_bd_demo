@@ -1,7 +1,7 @@
 from app import app,db
 from app.models import User, Post
 # Работа со второй базой данных
-import sqlite3
+import gunicorn
 
 
 @app.shell_context_processor
